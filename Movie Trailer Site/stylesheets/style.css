@@ -1,0 +1,213 @@
+/*  Variables   */
+/* Global Styles */
+/* line 6, ../sass/style.scss */
+* {
+  margin: 0px;
+  paddin: 0px; }
+
+/* line 11, ../sass/style.scss */
+.cf:before, .cf:after {
+  display: table;
+  content: ''; }
+
+/* line 16, ../sass/style.scss */
+.cf:after {
+  clear: both; }
+
+/* line 19, ../sass/style.scss */
+.body {
+  font-family: "Open Sans", Helvetica, sans-serif; }
+
+/*    Header Styles */
+/* line 25, ../sass/style.scss */
+#header {
+  padding: 1rem;
+  background-color: #FFFFFF; }
+  /* line 28, ../sass/style.scss */
+  #header .title {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 2rem 0 5rem;
+    font-size: 1.5rem;
+    color: #3f3d4e; }
+  /* line 35, ../sass/style.scss */
+  #header .movies-menu {
+    float: right;
+    font-weight: 700;
+    margin: -21px 9px 0 0; }
+    /* line 39, ../sass/style.scss */
+    #header .movies-menu a {
+      text-decoration: none;
+      padding: 0 41px 0 0;
+      color: #3f3d4e; }
+    /* line 44, ../sass/style.scss */
+    #header .movies-menu a:hover {
+      color: #005781; }
+
+/* line 50, ../sass/style.scss */
+.banner {
+  background-image: url("../images/banner_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 100%; }
+  /* line 56, ../sass/style.scss */
+  .banner .wrapper {
+    width: 60%;
+    margin: 0 auto;
+    height: 65%; }
+    /* line 60, ../sass/style.scss */
+    .banner .wrapper .movie-poster {
+      border-radius: 1rem; }
+      /* line 62, ../sass/style.scss */
+      .banner .wrapper .movie-poster img {
+        margin: 5rem 0 0 0;
+        width: 14rem; }
+    /* line 67, ../sass/style.scss */
+    .banner .wrapper .movie-details {
+      color: #FFFFFF;
+      bottom: 250px;
+      width: 500px;
+      float: right;
+      margin-top: -250px; }
+      /* line 73, ../sass/style.scss */
+      .banner .wrapper .movie-details .movie-title {
+        margin: 0;
+        display: inline-block; }
+      /* line 77, ../sass/style.scss */
+      .banner .wrapper .movie-details .movie-rating {
+        display: inline-block;
+        color: #7cc576;
+        position: relative;
+        margin: 0 0 0 0.75rem;
+        top: -2px; }
+        /* line 83, ../sass/style.scss */
+        .banner .wrapper .movie-details .movie-rating .inactive {
+          color: rgba(250, 250, 250, 0.25); }
+      /* line 87, ../sass/style.scss */
+      .banner .wrapper .movie-details .movie-description {
+        line-height: 1.4rem; }
+      /* line 90, ../sass/style.scss */
+      .banner .wrapper .movie-details .movie-type {
+        margin: 2rem 0 0 0;
+        font-weight: 700; }
+        /* line 93, ../sass/style.scss */
+        .banner .wrapper .movie-details .movie-type span {
+          margin: 0 0.5rem; }
+
+/* line 101, ../sass/style.scss */
+#popular-movies {
+  width: 100%; }
+  /* line 103, ../sass/style.scss */
+  #popular-movies .header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #3f3d4e;
+    padding: 2rem 0 2rem 0;
+    margin-top: 2rem; }
+  /* line 112, ../sass/style.scss */
+  #popular-movies .movies-wrapper .img-wrapper {
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin: 2.5rem 1.4rem .5rem 1.4rem; }
+    /* line 117, ../sass/style.scss */
+    #popular-movies .movies-wrapper .img-wrapper a {
+      width: 100%; }
+      /* line 119, ../sass/style.scss */
+      #popular-movies .movies-wrapper .img-wrapper a img {
+        border-radius: 0.25rem;
+        width: 100%;
+        height: 40%; }
+    /* line 125, ../sass/style.scss */
+    #popular-movies .movies-wrapper .img-wrapper h3 {
+      margin: 0.5rem 0 0 0;
+      color: #6a6a6a; }
+    /* line 129, ../sass/style.scss */
+    #popular-movies .movies-wrapper .img-wrapper .movie-details {
+      font-size: 0.8rem;
+      color: #b1b1b1; }
+
+/* line 137, ../sass/style.scss */
+#popular-shows {
+  background-color: #3f3d4e; }
+  /* line 139, ../sass/style.scss */
+  #popular-shows .header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    padding: 4rem 0 2rem 0;
+    margin-top: 2rem; }
+  /* line 147, ../sass/style.scss */
+  #popular-shows .shows-wrapper {
+    padding: 0 0 4rem 0; }
+    /* line 149, ../sass/style.scss */
+    #popular-shows .shows-wrapper .img-wrapper {
+      width: 12%;
+      display: inline-block;
+      margin: 1.8rem 1.85rem 0 1.85rem;
+      text-align: center;
+      color: #f4f4f4; }
+      /* line 156, ../sass/style.scss */
+      #popular-shows .shows-wrapper .img-wrapper a img {
+        width: 100%;
+        height: 40%;
+        border-radius: .3rem; }
+      /* line 162, ../sass/style.scss */
+      #popular-shows .shows-wrapper .img-wrapper h3 {
+        margin: 0.5rem 0 0 0; }
+      /* line 165, ../sass/style.scss */
+      #popular-shows .shows-wrapper .img-wrapper .show-details {
+        font-size: 0.8rem;
+        color: #b1b1b1; }
+
+/* line 173, ../sass/style.scss */
+#subscription {
+  background-color: #E9E9EB;
+  text-align: center; }
+  /* line 176, ../sass/style.scss */
+  #subscription .subscription-wrapper {
+    padding: 2rem; }
+    /* line 178, ../sass/style.scss */
+    #subscription .subscription-wrapper h2 {
+      width: 40%;
+      margin: 0 auto; }
+    /* line 182, ../sass/style.scss */
+    #subscription .subscription-wrapper .user-details {
+      margin: 2rem 0 2rem 0; }
+      /* line 184, ../sass/style.scss */
+      #subscription .subscription-wrapper .user-details input[type="text"] {
+        margin: 0 1rem 0 1rem;
+        text-indent: 1rem;
+        height: 8%;
+        border: none;
+        border-radius: 0.4rem;
+        width: 20%;
+        background-color: #464451;
+        color: #FFFFFF; }
+    /* line 195, ../sass/style.scss */
+    #subscription .subscription-wrapper .btn-highlight {
+      background-color: #79A75D;
+      color: white;
+      border: none;
+      border-radius: 5rem;
+      width: 10rem;
+      height: 3rem;
+      font-size: 1rem;
+      font-weight: 700; }
+
+/* line 208, ../sass/style.scss */
+#copyright {
+  text-align: center; }
+  /* line 210, ../sass/style.scss */
+  #copyright .wrapper {
+    padding: 2rem 0 2rem 0; }
+    /* line 212, ../sass/style.scss */
+    #copyright .wrapper p {
+      font-weight: 300; }
+      /* line 214, ../sass/style.scss */
+      #copyright .wrapper p span {
+        color: #207740;
+        font-weight: 700; }
